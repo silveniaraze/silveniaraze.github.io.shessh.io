@@ -1,0 +1,57 @@
+    @import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+    .header {
+        text-align: center;
+        color: white;
+        padding: 20px 0;
+        margin-bottom: 20px;
+    }
+
+    body {
+        font-family: 'Roboto';
+        background: linear-gradient(90deg, rgba(141, 194, 111, 1) 0%, rgba(118, 184, 82, 1) 50%);
+    }
+
+    .inner-row {
+        height: 100vh;
+    }
+
+    .primaryBg {
+        background: rgba(141, 194, 111, 1);
+    }
+
+    .primaryColor {
+        color: rgba(141, 194, 111, 1);
+    }
+
+    .form-box {
+        background: #fff;
+        box-shadow: 0 0 20px 0 rgb(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    }
+
+    .registration-form {
+        display: none;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .logo img {
+        max-width: 300px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    #background-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 150%;
+        height: 190%;
+        object-fit: cover;
+        z-index: -1;
+    }
